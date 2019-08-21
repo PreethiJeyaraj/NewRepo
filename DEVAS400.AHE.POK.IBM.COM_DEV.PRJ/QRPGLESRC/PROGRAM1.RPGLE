@@ -32,7 +32,7 @@
 003200190624     C                   EVAL      EDICTY = EDICOUNTRY
 003300190624     C                   EVAL      EDIEXIST = 'Y'
 003400190624     C                   WRITE     FILE2R
-003500190821     C                   Eval      COUNTRY3 = EDICOUNTRY
+003500190821     C                   Eval      COUNTRY3  = EDICOUNTRY
 003600190624     C                   EndIF
 003700190624     C                   EndIF
 003800190624     C                   READ      FILE1                                  30
