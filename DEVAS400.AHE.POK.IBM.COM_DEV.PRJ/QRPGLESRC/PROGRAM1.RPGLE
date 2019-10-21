@@ -41,4 +41,3 @@
 004100190624     C                   EVAL      *INLR = *ON
 004200190624     C                   RETURN
 004300190624      *
-004400190624     C*                  IF        COUNTRY <> EDICOUNTRY
