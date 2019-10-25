@@ -14,7 +14,7 @@
 001400190624      *
 001500190625      * D-Spec
 001600190624      *
-001700190821     DCOUNTRY2         S              2A   INZ(*BLANKS)
+001700190821     DCOUNTRY4         S              2A   INZ(*BLANKS)
 001800190624
 001900190624      *
 002000190624      * C-Spec
@@ -27,12 +27,12 @@
 002700190624      * Indicator 30 in the previous step is set on when End of File is reached
 002800190624     C                   DOU       *IN30 = *ON
 002900190624      * Write File 2 if country exist in File with Balance is > 0
-003000190821     C                   IF        COUNTRY2 <> EDICOUNTRY
+003000190821     C                   IF        COUNTRY4 <> EDICOUNTRY
 003100190624     C                   IF        EDIBALANCE <> *ZERO
 003200190624     C                   EVAL      EDICTY = EDICOUNTRY
 003300190624     C                   EVAL      EDIEXIST = 'Y'
 003400190624     C                   WRITE     FILE2R
-003500190821     C                   Eval      COUNTRY2  = EDICOUNTRY
+003500190821     C                   Eval      COUNTRY4  = EDICOUNTRY
 003600190624     C                   EndIF
 003700190624     C                   EndIF
 003800190624     C                   READ      FILE1                                  30
