@@ -2,11 +2,11 @@
 "build": [
     {
     "command":"gmake",
-    "args": ["clean", "BIN_LIB=NewDemoRepo"]
+    "args": ["clean", "BIN_LIB=NewRepo"]
     }
     {
     "command":"gmake",
-    "args": ["BIN_LIB=NewDemoRepo"]
+    "args": ["BIN_LIB=NewRepo"]
     }
  ]
 }
