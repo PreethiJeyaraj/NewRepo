@@ -1,0 +1,13 @@
+{
+"build":[{
+    "command":"gmake",
+    "args": ["BIN_LIB=NewDemoRepo"]
+  }],
+"release": {
+		"post_commands": [{
+			"command": "gmake",
+			"args": ["release", "BIN_LIB=NewDemoRepo"]
+		}],
+		"upload_file": "./release1X/release1X.savf"
+}
+}
