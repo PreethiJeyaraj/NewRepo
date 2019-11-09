@@ -1,6 +1,6 @@
 {
 "build":[{
-    "command":"make",
+    "command":"gmake",
     "args": ["BIN_LIB=NewRepo"]
   }]
 }
